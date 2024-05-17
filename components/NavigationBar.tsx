@@ -1,8 +1,8 @@
 "use client"
 import React from 'react';
 import Link from 'next/link';
-import { Dumbbell, DumbbellIcon, Flame, Utensils, Waypoints } from 'lucide-react';
-import TimelineIcon from '@mui/icons-material/Timeline';
+import {DumbbellIcon, Flame, Utensils, Waypoints } from 'lucide-react';
+
 
 export default function SimpleBottomNavigation() {
   return (
