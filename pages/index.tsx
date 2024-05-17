@@ -1,7 +1,6 @@
-import Image from "next/image";
-import { Inter } from "next/font/google";
+
 import { GoalList } from "@/components/GoalList";
-import { TargetIcon, HeartPulseIcon } from "lucide-react";
+import { HeartPulseIcon } from "lucide-react";
 import ProgressBar from "@/components/ProgressBar";
 import { Slider } from "@/components/Slider";
 import BarChart from "@/components/ProgressGraph";
