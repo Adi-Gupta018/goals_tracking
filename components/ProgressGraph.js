@@ -267,7 +267,7 @@ const BarChart = () => {
 
   return (
     <>
-      <div className='w-full max-w-[calc(100vw-16px)] h-[calc(100vh-64px)] m-auto p-4 border border-gray-300 rounded-md bg-gray-800'>
+      <div className='w-full max-w-[calc(100vw-16px)] h-[calc(100vh-56px)] m-auto p-4 border border-gray-300 rounded-md bg-gray-800'>
         <Bar data={chartData} options={chartOptions} />
       </div>
     </>

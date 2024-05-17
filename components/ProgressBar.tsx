@@ -19,16 +19,9 @@ const ProgressBar = () => {
 
   return (
     <>
-    {/* <div className="flex items-center  mb-2">
-    <TargetIcon className="text-[#00A3FF] h-8 w-8" />
-    <span className="text-sm">Your Daily Goal Almost Done</span>
-    </div>
-    <div className="text-sm mb-2">{completedCount} of {goals.length} Completed</div>
-    <Progress className="w-full" value={progress} />
-    {`${progress}%`} */}
-     <Grid container spacing={2}>
+     { <Grid container  className='bg-gradient-to-r from-blue-400 to-blue-600 text-white p-2 rounded-xl shadow-lg'>
       <Grid item xs={4}>
-        <TargetIcon className="text-[#00A3FF] h-20 w-full" />
+        <TargetIcon className="text-white h-20 w-full" />
       </Grid>
       <Grid item xs={8}>
         <div className="text-sm">
@@ -36,11 +29,12 @@ const ProgressBar = () => {
           <div className="mb-2">
             {completedCount} of {goals.length} Completed
           </div>
-          <Progress className="w-full" value={progress} />
+          <Progress className="w-full h-1" value={progress} />
           <span className="float-right">{`${progress}%`}</span>
         </div>
       </Grid>
-    </Grid>
+    </Grid> }
+    
     </>
   );
 };
